@@ -1,13 +1,13 @@
-train: ../train/images
-val: ../valid/images
-test: ../test/images
-
-nc: 10
-names: ['1', '2', '3', '4', '5', '6', '7', '8', '9', 'bike']
-
+names:
+- .
+- bikes
+nc: 2
 roboflow:
-  workspace: bollard
-  project: motorcycle-l9wuv
-  version: 1
   license: CC BY 4.0
-  url: https://universe.roboflow.com/bollard/motorcycle-l9wuv/dataset/1
+  project: bike-detection-jnm62
+  url: https://universe.roboflow.com/minor-project-gvcqu/bike-detection-jnm62/dataset/1
+  version: 1
+  workspace: minor-project-gvcqu
+test: /mnt/e/minor-project-helmet-detection/bike-detection/bike-detection-1/test/images
+train: /mnt/e/minor-project-helmet-detection/bike-detection/bike-detection-1/train/images
+val: /mnt/e/minor-project-helmet-detection/bike-detection/bike-detection-1/valid/images
